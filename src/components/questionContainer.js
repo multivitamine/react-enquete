@@ -39,13 +39,13 @@ class QuestionContainer extends Component {
   setQuestion = questionId => {
     const { questionJson } = this.props;
 
-    const question = questionJson.questions.filter(x => x.id === questionId)[0];
-
+    const question = questionJson.filter(x => x.id === questionId)[0];
+    const options = question.options !== undefined ? question.options : [];
     this.setState({
       nextQuestionYes: question.nextQuestionYes,
       nextQuestionNo: question.nextQuestionNo,
       questionText: question.questionText,
-      options: question.options,
+      options,
       question: question
     });
   };
@@ -99,7 +99,6 @@ class QuestionContainer extends Component {
       </Grid>
     ) : (
       <React.Fragment>
-        <h1>test</h1>
         <Html html={question.awnser} />
       </React.Fragment>
     );

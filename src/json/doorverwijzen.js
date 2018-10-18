@@ -1,7 +1,7 @@
 const doorverwijzen = {
   questions: [
     {
-      id: "1",
+      id: 1,
       questionText: "Is Nederlands de tweede taal?",
       nextQuestionNo: 2,
       nextQuestionYes: 6,
@@ -94,7 +94,7 @@ const doorverwijzen = {
       ]
     },
     {
-      id: "1"0,
+      id: 10,
       questionText: "Is men geslaagd voor alle examens?",
       nextQuestionYes: 12,
       nextQuestionNo: 10001,
@@ -104,7 +104,7 @@ const doorverwijzen = {
       ]
     },
     {
-      id: "1"1,
+      id: 11,
       questionText:
         "Kent men het latijnse alfabet en kan men er in lezen en schrijven?",
       nextQuestionYes: 14,
@@ -115,7 +115,7 @@ const doorverwijzen = {
       ]
     },
     {
-      id: "1"2,
+      id: 12,
       questionText: "Is dat meer dan een jaar geleden?",
       nextQuestionYes: 13,
       nextQuestionNo: 10004,
@@ -125,7 +125,7 @@ const doorverwijzen = {
       ]
     },
     {
-      id: "1"3,
+      id: 13,
       questionText: "Spreekt men in de praktijk nu nog Nederlands?",
       nextQuestionYes: 10002,
       nextQuestionNo: 10000,
@@ -135,7 +135,7 @@ const doorverwijzen = {
       ]
     },
     {
-      id: "1"4,
+      id: 14,
       questionText: "Is men (nog) inburgeringsplichtig?",
       nextQuestionYes: 10001,
       nextQuestionNo: 15,
@@ -145,7 +145,7 @@ const doorverwijzen = {
       ]
     },
     {
-      id: "1"5,
+      id: 15,
       questionText:
         "Is men kort in Nederland en heeft men geoefend met Nederlands ?",
       nextQuestionYes: 16,
@@ -153,12 +153,12 @@ const doorverwijzen = {
       options: [
         { id: "0", optiontext: "kort, niet geoefend", value: "0" },
         { id: "1", optiontext: "lang, niet geoefend", value: "0" },
-        { id: 2, optiontext: "kort, wel geoefend", value: "0" },
-        { id: 3, optiontext: "lang, wel geoefend", value: "1" }
+        { id: "2", optiontext: "kort, wel geoefend", value: "0" },
+        { id: "3", optiontext: "lang, wel geoefend", value: "1" }
       ]
     },
     {
-      id: "1"6,
+      id: 16,
       questionText: "Is men hoogopgeleid ?",
       nextQuestionYes: 17,
       nextQuestionNo: 10000,
@@ -168,7 +168,7 @@ const doorverwijzen = {
       ]
     },
     {
-      id: "1"7,
+      id: 17,
       questionText: "Heeft men moeite met formulieren officïele brieven, etc.?",
       nextQuestionYes: 10000,
       nextQuestionNo: 10004,
@@ -178,7 +178,7 @@ const doorverwijzen = {
       ]
     },
     {
-      id: "1"8,
+      id: 18,
       questionText: "Is men (nog) inburgeringsplichtig?",
       nextQuestionYes: 10001,
       nextQuestionNo: 10003,
@@ -188,29 +188,29 @@ const doorverwijzen = {
       ]
     },
     {
-      id: "1"0000,
+      id: 10000,
       awnser:
-        '<p>Er is hier extra taalondersteuning nodig. Verwijs deze cliënt door naar </p> <p><strong>informeel onderwijs</strong></p> <p>Ga verder op de pagina: <a href="http://taaltoets.eu/taalonderwijs-in-nederland/">(Taal)onderwijs in Nederland</a></p>'
+        '<p>Er is hier extra taalondersteuning nodig. Verwijs deze cliënt door naar </p> <p><strong>informeel onderwijs</strong></p> <p> <a href="http://taaltoets.eu/taalonderwijs-in-nederland#informeel-onderwijs">Klik hier om te gaan naar: (Taal)onderwijs in Nederland</a></p>'
     },
     {
-      id: "1"0001,
+      id: 10001,
       awnser:
-        '<p>Er is hier extra taalondersteuning nodig Verwijs deze cliënt door naar </p> <p><strong>formeel onderwijs</strong> </p> <p> Ga verder op de pagina: <a href="http://taaltoets.eu/taalonderwijs-in-nederland/">(Taal)onderwijs in Nederland</a></p>'
+        '<p>Er is hier extra taalondersteuning nodig Verwijs deze cliënt door naar </p> <p><strong>formeel onderwijs</strong> </p> <p> <a href="http://taaltoets.eu/taalonderwijs-in-nederland#formeel-onderwijs">Klik hier om te gaan naar: (Taal)onderwijs in Nederland</a></p>'
     },
     {
-      id: "1"0002,
+      id: 10002,
       awnser:
-        '<p>Doorverwijzing is bij deze cliënt in principe niet nodig. Verwijs afhankelijk van indruk door naar </p> <p><strong>informeel onderwijs</strong> </p> <p> Ga verder op de pagina: <a href="http://taaltoets.eu/taalonderwijs-in-nederland/">(Taal)onderwijs in Nederland</a></p>'
+        '<p>Doorverwijzing is bij deze cliënt in principe niet nodig. Verwijs afhankelijk van indruk door naar </p> <p><strong>informeel onderwijs</strong> </p> <p> <a href="http://taaltoets.eu/taalonderwijs-in-nederland#informeel-onderwijs">Klik hier om te gaan naar: (Taal)onderwijs in Nederland</a></p>'
     },
     {
-      id: "1"0003,
+      id: 10003,
       awnser:
-        '<p>Deze cliënt is analfabeet en niet meer inburgeringsplichtig. Afhankelijk van het gemeentelijk beleid moet deze cliënt naar</p> <p><strong>informeel of formeel onderwijs</strong> </p> <p> Ga verder op de pagina: <a href="http://taaltoets.eu/taalonderwijs-in-nederland/">(Taal)onderwijs in Nederland</a></p>'
+        '<p>Deze cliënt is analfabeet en niet meer inburgeringsplichtig. Afhankelijk van het gemeentelijk beleid moet deze cliënt naar</p> <p><strong>informeel of formeel onderwijs</strong> </p> <p> <a href="http://taaltoets.eu/taalonderwijs-in-nederland#formeel-onderwijs">Klik hier om te gaan naar: Formeel (Taal)onderwijs in Nederland</a></p> <p><a href="http://taaltoets.eu/taalonderwijs-in-nederland#informeel-onderwijs"> Of klik hier om te gaan naar: Informeel (Taal)onderwijs in Nederland</a></p>'
     },
     {
-      id: "1"0004,
+      id: 10004,
       awnser:
-        '<p>Doorverwijzing is bij deze cliënt in principe niet nodig. Verwijs alleen door bij eigen behoefte naar</p> <p><strong>informeel onderwijs</strong> </p> <p> Ga verder op de pagina: <a href="http://taaltoets.eu/taalonderwijs-in-nederland/">(Taal)onderwijs in Nederland</a></p>'
+        '<p>Doorverwijzing is bij deze cliënt in principe niet nodig. Verwijs alleen door bij eigen behoefte naar</p> <p><strong>informeel onderwijs</strong> </p> <p><a href="http://taaltoets.eu/taalonderwijs-in-nederland#informeel-onderwijs">Klik hier om te gaan naar: (Taal)onderwijs in Nederland</a></p>'
     }
   ]
 };

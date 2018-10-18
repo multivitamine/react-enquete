@@ -34,7 +34,7 @@ class Answer extends Component {
           value={option.id}
           control={<Radio color="primary" />}
           label={option.optiontext}
-          labelPlacement="start"
+          labelPlacement="end"
         />
       );
     });
@@ -45,8 +45,8 @@ class Answer extends Component {
     return (
       <FormControl component="fieldset" className={classes.formControl}>
         <RadioGroup
-          aria-label="gender"
-          name="gender2"
+          aria-label="test"
+          name="test1"
           className={classes.group}
           value={this.props.value}
           onChange={this.handleChange}
