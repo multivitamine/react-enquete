@@ -44,6 +44,8 @@ class QuestionContainer extends Component {
     this.setState({
       nextQuestionYes: question.nextQuestionYes,
       nextQuestionNo: question.nextQuestionNo,
+      extraQuestionOne: question.extraQuestionOne,
+      extraQuestionTwo: question.extraQuestionTwo,
       questionText: question.questionText,
       options,
       question: question
@@ -62,12 +64,28 @@ class QuestionContainer extends Component {
       selectAwnserValue,
       question,
       nextQuestionNo,
-      nextQuestionYes
+      nextQuestionYes,
+      extraQuestionOne,
+      extraQuestionTwo
     } = state;
-    const nextQuestionId =
-      selectAwnserValue === "0" && options.length > 0
-        ? nextQuestionNo
-        : nextQuestionYes;
+    let nextQuestionId = "";
+    switch (selectAwnserValue) {
+      case "0":
+        nextQuestionId = nextQuestionNo;
+        break;
+      case "1":
+        nextQuestionId = nextQuestionYes;
+        break;
+      case "2":
+        nextQuestionId = extraQuestionOne;
+        break;
+      case "3":
+        nextQuestionId = extraQuestionTwo;
+        break;
+      default:
+        nextQuestionId = nextQuestionNo;
+        break;
+    }
     const { classes } = props;
     const isFinalQuestion = question.id > 9999 ? true : false;
     const hasExtraHtml = question.extraHtml !== undefined ? true : false;
