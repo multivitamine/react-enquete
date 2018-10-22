@@ -12,7 +12,7 @@ const doorverwijzen = {
     },
     {
       id: 2,
-      questionText: "Heeft men een mbo 4 of hoger gehaald?",
+      questionText: "Heeft men een MBO4 of hoger gehaald?",
       nextQuestionYes: 5,
       nextQuestionNo: 3,
       options: [
@@ -24,8 +24,8 @@ const doorverwijzen = {
       id: 3,
       questionText: "Heeft men moeite met een van deze dingen:",
       extraHtml:
-        "<ul><li>- formulieren invullen</li><li>- straatnaamborden lezen, reizen met openbaar vervoer</li><li>- voorlezen aan (klein)kinderen</li><li>- begrijpen van informatie over gezondheid en zorg</li><li>(- werken met een computer, pinnen, solliciteren, etc.)</li></ul>",
-      nextQuestionYes: 10000,
+        "<ul><li> formulieren invullen</li><li> straatnaamborden lezen, reizen met openbaar vervoer</li><li> voorlezen aan (klein)kinderen</li><li> begrijpen van informatie over gezondheid en zorg</li><li>( werken met een computer, pinnen, solliciteren, etc.)</li></ul>",
+      nextQuestionYes: 10005,
       nextQuestionNo: 4,
       options: [
         { id: "0", optiontext: "nee", value: "0" },
@@ -45,7 +45,7 @@ const doorverwijzen = {
     {
       id: 5,
       questionText:
-        "Leest men wekelijks formulieren, de krant, brieven van overheidsinstanties etc.?",
+        "Leest men wekelijks de krant, brieven van overheidsinstanties etc.?",
       nextQuestionYes: 10004,
       nextQuestionNo: 3,
       options: [
@@ -106,7 +106,7 @@ const doorverwijzen = {
     {
       id: 11,
       questionText:
-        "Kent men het latijnse alfabet en kan men er in lezen en schrijven?",
+        "Kent men het Latijnse alfabet en kan men er in lezen en schrijven?",
       nextQuestionYes: 14,
       nextQuestionNo: 18,
       options: [
@@ -137,8 +137,8 @@ const doorverwijzen = {
     {
       id: 14,
       questionText: "Is men (nog) inburgeringsplichtig?",
-      nextQuestionYes: 10001,
-      nextQuestionNo: 15,
+      nextQuestionYes: 15,
+      nextQuestionNo: 16,
       options: [
         { id: "0", optiontext: "nee", value: "0" },
         { id: "1", optiontext: "ja", value: "1" }
@@ -169,7 +169,7 @@ const doorverwijzen = {
     },
     {
       id: 17,
-      questionText: "Heeft men moeite met formulieren officïele brieven, etc.?",
+      questionText: "Heeft men moeite met formulieren officiële brieven, etc.?",
       nextQuestionYes: 10000,
       nextQuestionNo: 10004,
       options: [
@@ -195,7 +195,7 @@ const doorverwijzen = {
     {
       id: 10001,
       awnser:
-        '<p>Er is hier extra taalondersteuning nodig Verwijs deze cliënt door naar </p> <p><strong>formeel onderwijs</strong> </p> <p> <a href="http://taaltoets.eu/taalonderwijs-in-nederland#formeel-onderwijs">Klik hier om te gaan naar: (Taal)onderwijs in Nederland</a></p>'
+        '<p>Er is hier extra taalondersteuning nodig. Verwijs deze cliënt door naar </p> <p><strong>formeel onderwijs</strong> </p> <p> <a href="http://taaltoets.eu/taalonderwijs-in-nederland#formeel-onderwijs">Klik hier om te gaan naar: (Taal)onderwijs in Nederland</a></p>'
     },
     {
       id: 10002,
@@ -211,6 +211,11 @@ const doorverwijzen = {
       id: 10004,
       awnser:
         '<p>Doorverwijzing is bij deze cliënt in principe niet nodig. Verwijs alleen door bij eigen behoefte naar</p> <p><strong>informeel onderwijs</strong> </p> <p><a href="http://taaltoets.eu/taalonderwijs-in-nederland#informeel-onderwijs">Klik hier om te gaan naar: (Taal)onderwijs in Nederland</a></p>'
+    },
+    {
+      id: 10005,
+      awnser:
+        '<p>Deze cliënt is laaggeletterd (NT1). Afhankelijk van het gemeentelijk beleid moet deze cliënt naar</p> <p><strong>informeel of formeel onderwijs</strong> </p> <p> <a href="http://taaltoets.eu/taalonderwijs-in-nederland#formeel-onderwijs">Klik hier om te gaan naar: Formeel (Taal)onderwijs in Nederland</a></p> <p><a href="http://taaltoets.eu/taalonderwijs-in-nederland#informeel-onderwijs"> Of klik hier om te gaan naar: Informeel (Taal)onderwijs in Nederland</a></p>'
     }
   ]
 };
