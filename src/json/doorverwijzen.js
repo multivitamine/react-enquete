@@ -215,7 +215,7 @@ const doorverwijzen = {
     {
       id: 10005,
       awnser:
-        '<p>Deze cliënt is laaggeletterd (NT1). Afhankelijk van het gemeentelijk beleid moet deze cliënt naar</p> <p><strong>informeel of formeel onderwijs</strong> </p> <p> <a href="http://taaltoets.eu/taalonderwijs-in-nederland#formeel-onderwijs">Klik hier om te gaan naar: Formeel (Taal)onderwijs in Nederland</a></p> <p><a href="http://taaltoets.eu/taalonderwijs-in-nederland#informeel-onderwijs"> Of klik hier om te gaan naar: Informeel (Taal)onderwijs in Nederland</a></p>'
+        '<p>Deze cliënt is mogelijk laaggeletterd (NT1). Afhankelijk van het gemeentelijk beleid moet deze cliënt naar</p> <p><strong>informeel of formeel onderwijs</strong> </p> <p> <a href="http://taaltoets.eu/taalonderwijs-in-nederland#formeel-onderwijs">Klik hier om te gaan naar: Formeel (Taal)onderwijs in Nederland</a></p> <p><a href="http://taaltoets.eu/taalonderwijs-in-nederland#informeel-onderwijs"> Of klik hier om te gaan naar: Informeel (Taal)onderwijs in Nederland</a></p>'
     }
   ]
 };

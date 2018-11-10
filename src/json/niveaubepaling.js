@@ -170,7 +170,7 @@ const doorverwijzen = {
     },
     {
       id: 17,
-      questionText: "heeft men vrijstelling gekregen?",
+      questionText: "Heeft men vrijstelling gekregen?",
       nextQuestionYes: 10013,
       nextQuestionNo: 18,
       options: [
@@ -184,7 +184,11 @@ const doorverwijzen = {
       nextQuestionYes: 10011,
       nextQuestionNo: 10013,
       options: [
-        { id: "0", optiontext: "Of om vrijstelling te krijgen", value: "0" },
+        {
+          id: "0",
+          optiontext: "ja, maar met de intentie om vrijstelling te krijgen",
+          value: "0"
+        },
         { id: "1", optiontext: "ja", value: "1" }
       ]
     },
@@ -211,73 +215,73 @@ const doorverwijzen = {
     {
       id: 10000,
       awnser:
-        '<p>Het niveauadvies is laaggeletterd</p> <p> <a href="http://taaltoets.eu/taalonderwijs-in-nederland">Klik hier om te gaan naar: (Taal)onderwijs in Nederland</a></p>'
+        '<p>De indicatie voor deze cliënt is...<strong>laaggeletterd (NT1)</strong> </p> <p> <a href="http://taaltoets.eu/taalonderwijs-in-nederland">Klik hier om te gaan naar: (Taal)onderwijs in Nederland. Voor de niveaus laaggeletterd, analfabeet, A0, A1 & A2 is extra taalonderwijs in ieder geval gewenst.</a></p>'
     },
     {
       id: 10001,
       awnser:
-        '<p>Het niveauadvies is niet laaggeletterd</p> <p> <a href="http://taaltoets.eu/taalonderwijs-in-nederland">Klik hier om te gaan naar: (Taal)onderwijs in Nederland</a></p>'
+        '<p>De indicatie voor deze cliënt is...<strong>geletterd</strong> </p> <p> <a href="http://taaltoets.eu/taalonderwijs-in-nederland">Klik hier om te gaan naar: (Taal)onderwijs in Nederland. Voor de niveaus laaggeletterd, analfabeet, A0, A1 & A2 is extra taalonderwijs in ieder geval gewenst.</a></p>'
     },
     {
       id: 10002,
       awnser:
-        '<p>Het niveauadvies is analfabeet</p> <p> <a href="http://taaltoets.eu/taalonderwijs-in-nederland">Klik hier om te gaan naar: (Taal)onderwijs in Nederland</a></p>'
+        '<p>De indicatie voor deze cliënt is...<strong>analfabeet</strong> </p> <p> <a href="http://taaltoets.eu/taalonderwijs-in-nederland">Klik hier om te gaan naar: (Taal)onderwijs in Nederland. Voor de niveaus laaggeletterd, analfabeet, A0, A1 & A2 is extra taalonderwijs in ieder geval gewenst.</a></p>'
     },
     {
       id: 10003,
       awnser:
-        '<p>Het niveauadvies is A1</p> <p> <a href="http://taaltoets.eu/taalonderwijs-in-nederland">Klik hier om te gaan naar: (Taal)onderwijs in Nederland</a></p>'
+        '<p>De indicatie voor deze cliënt is...<strong>A1</strong> </p> <p> <a href="http://taaltoets.eu/taalonderwijs-in-nederland">Klik hier om te gaan naar: (Taal)onderwijs in Nederland. Voor de niveaus laaggeletterd, analfabeet, A0, A1 & A2 is extra taalonderwijs in ieder geval gewenst.</a></p>'
     },
     {
       id: 10004,
       awnser:
-        '<p>Het niveauadvies is A2</p> <p> <a href="http://taaltoets.eu/taalonderwijs-in-nederland">Klik hier om te gaan naar: (Taal)onderwijs in Nederland</a></p>'
+        '<p>De indicatie voor deze cliënt is...<strong>A2</strong> </p> <p> <a href="http://taaltoets.eu/taalonderwijs-in-nederland">Klik hier om te gaan naar: (Taal)onderwijs in Nederland. Voor de niveaus laaggeletterd, analfabeet, A0, A1 & A2 is extra taalonderwijs in ieder geval gewenst.</a></p>'
     },
     {
       id: 10005,
       awnser:
-        '<p>Het niveauadvies is A0</p> <p> <a href="http://taaltoets.eu/taalonderwijs-in-nederland">Klik hier om te gaan naar: (Taal)onderwijs in Nederland</a></p>'
+        '<p>De indicatie voor deze cliënt is...<strong>A0</strong> </p> <p> <a href="http://taaltoets.eu/taalonderwijs-in-nederland">Klik hier om te gaan naar: (Taal)onderwijs in Nederland. Voor de niveaus laaggeletterd, analfabeet, A0, A1 & A2 is extra taalonderwijs in ieder geval gewenst.</a></p>'
     },
     {
       id: 10006,
       awnser:
-        '<p>Het niveauadvies is (naar) B1 of B2</p> <p> <a href="http://taaltoets.eu/taalonderwijs-in-nederland">Klik hier om te gaan naar: (Taal)onderwijs in Nederland</a></p>'
+        '<p>De indicatie voor deze cliënt is...<strong>(naar)B1 of B2</strong> </p> <p> <a href="http://taaltoets.eu/taalonderwijs-in-nederland">Klik hier om te gaan naar: (Taal)onderwijs in Nederland. Voor de niveaus laaggeletterd, analfabeet, A0, A1 & A2 is extra taalonderwijs in ieder geval gewenst.</a></p>'
     },
     {
       id: 10007,
       awnser:
-        '<p>Het niveauadvies is rond A1</p> <p> <a href="http://taaltoets.eu/taalonderwijs-in-nederland">Klik hier om te gaan naar: (Taal)onderwijs in Nederland</a></p>'
+        '<p>De indicatie voor deze cliënt is...<strong>rond A1</strong> </p> <p> <a href="http://taaltoets.eu/taalonderwijs-in-nederland">Klik hier om te gaan naar: (Taal)onderwijs in Nederland. Voor de niveaus laaggeletterd, analfabeet, A0, A1 & A2 is extra taalonderwijs in ieder geval gewenst.</a></p>'
     },
     {
       id: 10008,
       awnser:
-        '<p>Het niveauadvies is A1 - B1</p> <p> <a href="http://taaltoets.eu/taalonderwijs-in-nederland">Klik hier om te gaan naar: (Taal)onderwijs in Nederland</a></p>'
+        '<p>De indicatie voor deze cliënt is...<strong>A1 - B1</strong> </p> <p> <a href="http://taaltoets.eu/taalonderwijs-in-nederland">Klik hier om te gaan naar: (Taal)onderwijs in Nederland. Voor de niveaus laaggeletterd, analfabeet, A0, A1 & A2 is extra taalonderwijs in ieder geval gewenst.</a></p>'
     },
     {
       id: 10009,
       awnser:
-        '<p>Het niveauadvies is A2 - B2</p> <p> <a href="http://taaltoets.eu/taalonderwijs-in-nederland">Klik hier om te gaan naar: (Taal)onderwijs in Nederland</a></p>'
+        '<p>De indicatie voor deze cliënt is...<strong>A2 - B2</strong> </p> <p> <a href="http://taaltoets.eu/taalonderwijs-in-nederland">Klik hier om te gaan naar: (Taal)onderwijs in Nederland. Voor de niveaus laaggeletterd, analfabeet, A0, A1 & A2 is extra taalonderwijs in ieder geval gewenst.</a></p>'
     },
     {
       id: 10010,
       awnser:
-        '<p>Het niveauadvies is A1 - A2</p> <p> <a href="http://taaltoets.eu/taalonderwijs-in-nederland">Klik hier om te gaan naar: (Taal)onderwijs in Nederland</a></p>'
+        '<p>De indicatie voor deze cliënt is...<strong>A1 - A2</strong> </p> <p> <a href="http://taaltoets.eu/taalonderwijs-in-nederland">Klik hier om te gaan naar: (Taal)onderwijs in Nederland. Voor de niveaus laaggeletterd, analfabeet, A0, A1 & A2 is extra taalonderwijs in ieder geval gewenst.</a></p>'
     },
 
     {
       id: 10011,
       awnser:
-        '<p>Het niveauadvies is niet laaggeletterd</p> <p> <a href="http://taaltoets.eu/taalonderwijs-in-nederland">Klik hier om te gaan naar: (Taal)onderwijs in Nederland</a></p>'
+        '<p>De indicatie voor deze cliënt is...<strong>geletterd</strong> </p> <p> <a href="http://taaltoets.eu/taalonderwijs-in-nederland">Klik hier om te gaan naar: (Taal)onderwijs in Nederland. Voor de niveaus laaggeletterd, analfabeet, A0, A1 & A2 is extra taalonderwijs in ieder geval gewenst.</a></p>'
     },
     {
       id: 10012,
       awnser:
-        '<p>Het niveauadvies is tegen A2</p> <p> <a href="http://taaltoets.eu/taalonderwijs-in-nederland">Klik hier om te gaan naar: (Taal)onderwijs in Nederland</a></p>'
+        '<p>De indicatie voor deze cliënt is...<strong>tegen A2</strong> </p> <p> <a href="http://taaltoets.eu/taalonderwijs-in-nederland">Klik hier om te gaan naar: (Taal)onderwijs in Nederland. Voor de niveaus laaggeletterd, analfabeet, A0, A1 & A2 is extra taalonderwijs gewenst.</a></p>'
     },
     {
       id: 10013,
       awnser:
-        '<p>Het niveauadvies is onder A2</p> <p> <a href="http://taaltoets.eu/taalonderwijs-in-nederland">Klik hier om te gaan naar: (Taal)onderwijs in Nederland</a></p>'
+        '<p>De indicatie voor deze cliënt is...<strong>onder A2</strong> </p> <p> <a href="http://taaltoets.eu/taalonderwijs-in-nederland">Klik hier om te gaan naar: (Taal)onderwijs in Nederland. Voor de niveaus laaggeletterd, analfabeet, A0, A1 & A2 is extra taalonderwijs gewenst.</a></p>'
     }
   ]
 };
